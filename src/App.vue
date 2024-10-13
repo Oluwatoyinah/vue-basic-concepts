@@ -1,8 +1,6 @@
 <script setup>
-import LifecycleComponent from './components/Lifecycle-hooks/LifecycleComponent.vue'
-import WatchersComponent from './components/Watchers/WatchersComponent.vue'
+// import { provide, ref } from 'vue'
 
-// import { ref } from 'vue'
 // import Introduction from './components/Introduction/Introduction.vue'
 // import EventBox from './components/Events/EventBox.vue'
 // import ComputedProperties from './components/Computed/ComputedProperties.vue'
@@ -16,16 +14,23 @@ import WatchersComponent from './components/Watchers/WatchersComponent.vue'
 // import SlotComponent from './components/Slot/SlotComponent.vue'
 // import FallBackSlotContent from './components/Slot/FallBackSlotContent.vue'
 // import CompanyComponent from './components/provide-and-inject/CompanyComponent.vue'
+// import MainComponent from './components/AsyncComponent/MainComponent.vue'
+// import LifecycleComponent from './components/Lifecycle-hooks/LifecycleComponent.vue'
+// import RefComponent from './components/TemplateRef/RefComponent.vue'
+// import WatchersComponent from './components/Watchers/WatchersComponent.vue'
 
-// import { provide, ref } from 'vue'
+// import AgeComponent from './components/Composable/AgeComponent.vue'
+// import StudentCount from './components/Composable/StudentCount.vue'
+// import CustomDirectiveComponent from './components/Custom Directives/CustomDirectiveComponent.vue'
+// import MainComponent from './components/Dynamic Components/MainComponent.vue'
+// import DataRequestComponent from './components/Fetching Data/DataRequestComponent.vue'
 
 // let companyname = ref('Ty SHop')
+// const count = ref(0)
+// const name = ref('Bola')
 
 // provide('companyName', companyname)
 // provide('companyType', 'AgroBusiness')
-
-// const count = ref(0)
-// const name = ref('Bola')
 
 // function triggerSubmit(firstName, email, password) {
 //   alert(`My name is ${firstName}. My email address is ${email} and ${password} is my password `)
@@ -95,7 +100,6 @@ import WatchersComponent from './components/Watchers/WatchersComponent.vue'
   </DefaultSlotComponent> -->
 
   <!-- PROVIDE AND INJECT  -->
-
   <!-- <CompanyComponent @changeNameFn="companyname = 'Ty luxHomes'" /> -->
 
   <!-- LIFECYCLCE HOOKS  -->
@@ -103,6 +107,25 @@ import WatchersComponent from './components/Watchers/WatchersComponent.vue'
 
   <!-- WATCHERS  -->
   <!-- <WatchersComponent /> -->
+
+  <!-- TEMPLATE REF  -->
+  <!-- <RefComponent /> -->
+
+  <!-- ASYNC COMPONENT  -->
+  <!-- <MainComponent /> -->
+
+  <!-- COMPOSABLE  -->
+  <!-- <AgeComponent />
+  <StudentCount /> -->
+
+  <!-- CUSTOM DIRECTIVE  -->
+  <!-- <CustomDirectiveComponent /> -->
+
+  <!-- DYNAMIC COMPONENTS  -->
+  <!-- <MainComponent /> -->
+
+  <!-- FETCHING DATA  -->
+  <!-- <DataRequestComponent /> -->
 </template>
 
 <style scoped></style>
